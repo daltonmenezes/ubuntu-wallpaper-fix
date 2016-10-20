@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 printf "Ubuntu Wallpaper Fix\n\nInstalling..."
 # Remove (if exists) the old folder of ubuntu-wallpaper-fix
 rm -rf $HOME/.ubuntu-wallpaper-fix/
