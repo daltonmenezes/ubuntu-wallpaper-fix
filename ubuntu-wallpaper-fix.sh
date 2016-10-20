@@ -14,7 +14,7 @@ done
 
 . $HOME/.ubuntu-wallpaper-fix/src/fixer.sh
 
-if [ $startup_mode = true ]; then
+if [ $startup_mode == true ]; then
   sleep 6
   runFix > /dev/null
 fi
