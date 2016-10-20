@@ -13,5 +13,6 @@ sudo apt-get install unzip
 ## Uninstallation
 Copy and paste it on terminal and execute.
 ```shell
-wget -O uwf-uninstall https://git.io/vPQRL && chmod +x uwf-uninstall && ./uwf-uninstall && rm uwf-uninstall
+wget -O uwf-uninstall https://git.io/vPQRL && chmod +x uwf-uninstall && 
+./uwf-uninstall && rm uwf-uninstall
 ```
