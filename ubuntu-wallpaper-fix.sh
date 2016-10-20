@@ -1,12 +1,12 @@
 #!/bin/bash
 running=true
-silent=false
+silent_mode=false
 startup=false
 numberOfConnectedMonitors=`xrandr -q | grep ' connected' | wc -l`
 
 while [ "$#" -gt 0 ]; do
   case "$1" in
-    -s | --silent) silent=true;;
+    -s | --silent) silent_mode=true;;
     --onstartup) startup=true;;
     *) echo "The '$1' argument doesn't exists. Beep..."; exit 0;;
   esac; shift; shift
@@ -19,7 +19,7 @@ if [ $startup = true ]; then
   runFix > /dev/null
 fi
 
-if [ $silent == true ]; then
+if [ $silent_mode == true ]; then
   runFix > /dev/null
 else
   runFix
