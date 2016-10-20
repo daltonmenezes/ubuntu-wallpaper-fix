@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 running=true
 numberOfConnectedMonitors=`xrandr -q | grep ' connected' | wc -l`
 while $running; do
