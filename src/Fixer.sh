@@ -1,6 +1,6 @@
 #!/bin/bash
 function runFix {
-  while $running; do
+  while $is_running; do
     if [ "$numberOfConnectedMonitors" -ge "2" ]; then
       printf 'Executing...'
       if pgrep -f "gvfsd-trash" > /dev/null; then

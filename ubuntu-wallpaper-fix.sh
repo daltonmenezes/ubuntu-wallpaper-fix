@@ -1,5 +1,5 @@
 #!/bin/bash
-running=true
+is_running=true
 silent_mode=false
 startup_mode=false
 numberOfConnectedMonitors=`xrandr -q | grep ' connected' | wc -l`
