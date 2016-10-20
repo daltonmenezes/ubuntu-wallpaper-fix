@@ -1,5 +1,5 @@
 # ubuntu-wallpaper-fix
-A fix for wallpaper bug when Ubuntu is started with two (or more) connected monitors with different display interfaces. In my case are two (HDMI and VGA with DVI adapter).
+A fix for wallpaper bug when Ubuntu is started with two (or more) connected monitors with different display interfaces. In my case are two (HDMI and VGA with DVI adapter) where the HDMI monitor always start after login with blurred wallpaper. So, I've created this fix.
 
 <img src="http://i.giphy.com/F3o0slBN5hUfm.gif" alt="" />
 
