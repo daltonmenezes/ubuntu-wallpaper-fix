@@ -12,7 +12,7 @@ while [ "$#" -gt 0 ]; do
   esac; shift; shift
 done
 
-. $HOME/.ubuntu-wallpaper-fix/src/Fixer.sh
+. $HOME/.ubuntu-wallpaper-fix/src/fixer.sh
 
 if [ $startup_mode = true ]; then
   sleep 6
